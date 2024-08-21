@@ -1,0 +1,27 @@
+.transaction-list {
+    margin-top: 20px;
+  }
+  
+  .transaction-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transaction-list th, .transaction-list td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .transaction-list td {
+    color: #333;
+  }
+  
+  .transaction-list .status-success {
+    color: green;
+  }
+  
+  .transaction-list .status-failed {
+    color: red;
+  }
+  

@@ -1,0 +1,41 @@
+.dashboard {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .dashboard-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .dashboard-right {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .latest-transactions {
+    margin-top: 20px;
+  }
+  
+  .latest-transactions h2 {
+    margin-bottom: 20px;
+  }
+  
+  .chart-container,
+  .amount-transfer-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
