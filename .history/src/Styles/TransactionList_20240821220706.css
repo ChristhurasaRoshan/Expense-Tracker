@@ -1,0 +1,52 @@
+.transaction-list {
+  margin: 20px;
+}
+
+.transaction-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-list th, .transaction-list td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.transaction-list th {
+  background-color: #f4f4f4;
+}
+
+.add-transaction {
+  margin-top: 20px;
+}
+
+.add-transaction input,
+.add-transaction select {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.add-transaction button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-transaction button:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
